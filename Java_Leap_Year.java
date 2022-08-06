@@ -5,7 +5,7 @@ class Leap {
   public static void main(String[] args) {
 
     Scanner input = new Scanner (System.in);
-    System.out.println("\nEnter a Year :");
+    System.out.println("\nEnter a Year : ");
     int year = input.nextInt();
     boolean leap = false;
 
@@ -24,8 +24,8 @@ class Leap {
     leap = false;
     
     if (leap)
-      System.out.println(year + " is a leap year.");
+      System.out.println(year + " is a leap year. ");
     else
-      System.out.println(year + " is not a leap year.");
+      System.out.println(year + " is not a leap year. ");
   }
 }
