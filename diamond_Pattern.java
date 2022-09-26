@@ -1,6 +1,8 @@
 
 import java.util.Scanner;
 
+
+
 class DiamondPattern
 {
  public static void main(String args[])
