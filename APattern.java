@@ -8,10 +8,12 @@ class A_pattern
    {
 
     for (int i = 0; i<=n; i++) 
-    {  // Outer for loop for number of lines
+    { 
+ // Outer for loop for number of lines
 
       for (int j = 0; j<= n / 2; j++) 
-      { // Inner for loop for logic execution
+      { 
+// Inner for loop for logic execution
 
         if ((j == 0 || j == n / 2) && i != 0 || // prints two column lines
 
