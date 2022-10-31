@@ -1,6 +1,5 @@
 
 import java.util.Scanner;
-
 public class npr_ncr 
 {
   //calculating a factorial of a number
