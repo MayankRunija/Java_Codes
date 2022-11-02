@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class Swap {
+public class Swap
+ {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter 2 number for swapping :");
@@ -10,7 +11,8 @@ public class Swap {
         System.out.println("A: " + a + " " + "B: " + b);
         swapper(a,b);
     }
-    public  static void swapper(int num1 , int num2){
+    public  static void swapper(int num1 , int num2)
+{
         int temp = num1 ;
         num1 = num2 ;
         num2 = temp ;
