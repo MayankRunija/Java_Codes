@@ -1,4 +1,4 @@
-
+// Calculator by mayank
 import java.util.Scanner;
  
 class Calculator
